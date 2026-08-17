@@ -18,9 +18,9 @@ buttons.forEach((button) => {
     valueEl.textContent = count;
 
     if (count > 0) {
-      valueEl.style.color = '#4ade80';
+      valueEl.style.color = '#15c556';
     } else if (count < 0) {
-      valueEl.style.color = '#ff5c5c';
+      valueEl.style.color = '#e60c0c';
     } else {
       valueEl.style.color = '#ffffff';
     }
