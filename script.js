@@ -1,6 +1,6 @@
 // ─── Configuration ────────────────────────────────────────────────────────────
 // Replace with your free key from https://openweathermap.org/api
-const API_KEY = '';
+const API_KEY = 'YOUR_API_KEY';
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 const GEO_URL = 'https://api.openweathermap.org/geo/1.0';
 
