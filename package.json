@@ -1,0 +1,11 @@
+{
+  "name": "movie-watchlist",
+  "version": "1.0.0",
+  "description": "Movie Watchlist & Review Aggregator",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server --port=3000 --no-browser"
+  },
+  "keywords": ["movie", "watchlist", "review", "omdb"],
+  "license": "MIT"
+}
