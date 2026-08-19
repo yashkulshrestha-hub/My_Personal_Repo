@@ -172,19 +172,12 @@ async function fetchWeather(query) {
     if (!forecastRes.ok) throw new Error('Failed to load forecast data.');
     const forecastData = await forecastRes.json();
 
- <<<<<<< 17_08_2026_project
-    if (count > 0) {
-      valueEl.style.color = '#15c556';
-    } else if (count < 0) {
-      valueEl.style.color = '#e60c0c';
-=======
     renderCurrent(currentData);
     renderForecast(forecastData.list);
     showWeather();
   } catch (err) {
     if (err.name === 'TypeError' && err.message.includes('fetch')) {
       showError('Network error. Check your internet connection.');
- >>>>>>> main
     } else {
       showError(err.message);
     }
