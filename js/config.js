@@ -1,5 +1,5 @@
 const CONFIG = {
-  API_KEY: "",
+  API_KEY: "YOUR_API_KEY",
   API_BASE: "https://www.omdbapi.com/",
   RESULTS_PER_PAGE: 10,
   STORAGE_KEYS: {
