@@ -1,13 +1,4 @@
-/* ==================================================================
-   Nexa Studio — Design system
-   Principles:
-     - Deliberate color & WCAG AA contrast (4.5:1 for text)
-     - Generous whitespace + consistent spacing scale
-     - Clean type pairing (Sora display / Inter body, fluid scale)
-     - Media-light: all graphics are inline SVG / CSS, nothing to download
-   ================================================================== */
 
-/* ---------- 1. Theme tokens ---------- */
 :root {
   color-scheme: light;
 
