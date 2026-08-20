@@ -1,7 +1,3 @@
-/* ==================================================================
-   Nexa Studio — interactions
-   Theme, nav, reveal, counters, pricing, carousel, FAQ, forms & more
-   ================================================================== */
 (function () {
   'use strict';
 
