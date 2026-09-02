@@ -1,4 +1,4 @@
-export const API_KEY = '5a863728a33de464f47b2649572bbc2f';
+export const API_KEY = '';
 export const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 export const GEO_URL = 'https://api.openweathermap.org/geo/1.0';
 
